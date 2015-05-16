@@ -3,7 +3,6 @@
  * Custom Post Type Generator Class
  */
 
-
 class OOP_CPT_Generator {
 
   /**
