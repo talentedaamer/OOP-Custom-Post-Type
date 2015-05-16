@@ -39,15 +39,26 @@ class OOP_CPT_Generator {
        * singluar post type label
        * @var var
        */
+<<<<<<< HEAD
        $label_single = ucwords($this->cpt_name);
+=======
+ 			$label_single = ucwords($this->cpt_name);
+>>>>>>> 251f03fe35ff427f1d37c91d31dedaebabcc8d3d
        /**
         * plular post type label
         * @var var
         */
+<<<<<<< HEAD
         $label_plular = $label_single.'s';
 
         $args = array(
           'labels'              => array(
+=======
+ 			$label_plular = $label_single.'s';
+
+ 			$args = array(
+ 				'labels'              => array(
+>>>>>>> 251f03fe35ff427f1d37c91d31dedaebabcc8d3d
  					'name'                => __( "$label_plular", 'oth-framework' ),
  					'singular_name'       => __( "$label_single", 'oth-framework' ),
  					'add_new'             => _x( "Add New $label_single", 'oth-framework' ),
@@ -60,7 +71,11 @@ class OOP_CPT_Generator {
  					'not_found_in_trash'  => __( "No $label_plular found in Trash", 'oth-framework' ),
  					'parent_item_colon'   => __( "Parent $label_single :", 'oth-framework' ),
  					'menu_name'           => __( "$label_plular", 'oth-framework' ),
+<<<<<<< HEAD
          ),
+=======
+ 					),
+>>>>>>> 251f03fe35ff427f1d37c91d31dedaebabcc8d3d
  				'hierarchical'        => false,
  				'public'              => true,
  				'supports'            => array('title', 'editor', 'thumbnail'),
