@@ -9,7 +9,7 @@ Drop the file in your theme inc folder and add it in functions.php
 require get_template_directory() . '/inc/oop-cpt-generator.php';
 
 ```
-now initiate the class and register the post types.
+now make new instance of the class and register the post types.
 
 ```
 // features post type
