@@ -13,10 +13,28 @@ now initiate the class and register the post types.
 
 ```
 // features post type
-$portfolio_args = array(
+$feature_args = array(
 	'supports' => array('title', 'editor'),
 );
-new OOP_CPT_Generator( 'portfolio', $portfolio_args );
+new OOP_CPT_Generator( 'feature', $feature_args );
+
+// services post type
+$service_args = array(
+	'supports' => array('title', 'editor'),
+);
+new OOP_CPT_Generator( 'service', $service_args );
+
+// portfolio post type
+new OOP_CPT_Generator( 'portfolio' );
+
+// testimonial post type
+new OOP_CPT_Generator( 'testimonial' );
+
+// faq post type
+$service_args = array(
+	'supports' => array('title', 'editor'),
+);
+new OOP_CPT_Generator( 'faq', $service_args );
 ```
 
 ### Authors and Contributors
